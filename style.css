@@ -1,5 +1,63 @@
-.nav-container{
- display:flex;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
- justify-content: space-around;
+/* Navigation Bar */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-container div {
+    margin: 0 15px;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-container a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
