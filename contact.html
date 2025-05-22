@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div><a href="index.html">Home</a></div>
         <div><a href="about.html">About</a></div>
         <div><a href="contact.html">Contact</a></div>
-    </div>\
+    </div>
     
         <section id="contact-info">
             <h2>📞 Contact Information</h2>
@@ -20,11 +20,31 @@
         </section>
     <h2>Contact Us</h2>
 <form action="submit_form.php" method="post">
-  Name: <input type="text" name="name" required><br><br>
-  Email: <input type="email" name="email" required><br><br>
-  Message: <textarea name="message" rows="4" cols="40"></textarea><br><br>
-  <input type="submit" value="Send">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+  
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+  
+    <input type="submit" value="Send">
 </form>
 
+<section id="social-media">
+    <h2>🌐 Follow Us</h2>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/devkotass" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" title="Facebook">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" title="Instagram">
+      </a>
+      <a href="https://www.youtube.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" title="YouTube">
+      </a>
+    </div>
+  </section>
 </body>
 </html>

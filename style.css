@@ -61,3 +61,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.social-icons img {
+    width: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .social-icons a {
+    text-decoration: none;
+  }
